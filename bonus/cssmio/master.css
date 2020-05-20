@@ -38,10 +38,38 @@
 @media screen and (max-width: 367px) {
   img {
     height: auto;
-    width: 90vw;
+    width: 50vw;
   }
   #why .row img{
-    height: 200px;
-    width: auto;
+    padding: 10%;
+  }
+}
+
+@media screen and (max-width: 122px) {
+  h1 {
+    font-size: 130%;
+  }
+}
+
+@media screen and (max-width: 80px) {
+  h3{
+    font-size: 100%;
+  }
+  p{
+    font-size: 100%;
+  }
+  *{
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 91px) {
+  h1{
+    font-size: 100%;
+  }
+
+@media screen and (max-width: 50px) {
+  *{
+    font-size: 90%;
   }
 }
