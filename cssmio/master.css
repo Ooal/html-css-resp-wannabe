@@ -13,4 +13,7 @@
   #why .row>.first, #why .row>.second, #why .row>.third {
     background-color: #f9f9f9;
   }
+  .row {
+    width: 90vw;
+  }
 }
